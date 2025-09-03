@@ -15,7 +15,6 @@ bool build_olivec_lib(Cmd *cmd) {
 
   cmd_append(cmd,
 	     "cc",
-	     "-Wall",
 	     "-g",
 	     "-fPIC",
 	     "-c",
